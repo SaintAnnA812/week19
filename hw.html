@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .header,
+        .headP {
+            color: crimson;
+            font: 25px bold;
+        }
+
+        .article {
+            font-size: 15px;
+        }
+
+        #headPost,
+        #textPost {
+            width: 200px;
+            height: 30px;
+        }
+
+        #btn {
+
+            background-color: crimson;
+            height: 35px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>API</h1>
+    <div id="container">
+
+    </div>
+
+    <h2>Новый пост</h2>
+    <div id="Post">
+
+        <input type="text" id="headPost" placeholder="Заголовок поста">
+        <input type="text" id="textPost" placeholder="Текст поста">
+        <button id="btn" onclick="createPost()">Создать пост</button>
+        <div id="newPost"></div>
+    </div>
+
+
+
+    <script src="./hw.js"></script>
+</body>
+
+</html>
